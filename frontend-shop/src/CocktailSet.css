@@ -1,0 +1,110 @@
+body{
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+
+.BackgroundImage-Boss{
+    position: absolute;
+    height: 60vh;
+    width: 100%; 
+    left: 0px;
+    top: 0px;
+}
+
+.BackgroundImage-Shop{ 
+    background-image: url(https://patiotime.loftocean.com/demo11/wp-content/uploads/sites/11/2023/06/svitlana-hclUIrSWwFE-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+    width: 100%;
+}
+
+.BackgroundImage-Shop::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(245, 176, 17, 0.6); 
+}
+
+.BackgroundShop-Cover{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.BackgroundShop-Cover h1{
+    position: absolute;
+    margin-top: 290px;
+    font-size: 8em;
+    text-wrap: nowrap;
+    color: #fff;
+    text-transform: capitalize;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.ContentShop{
+    position: relative;
+    top: 65vh;
+}
+
+.ButtonsShop button{
+    margin: 0px 6px;
+    text-transform: uppercase;
+    font-family: "Playfair Display", serif;
+    font-weight: 100;
+    border: none;
+    background-color: #fff;
+    font-size: 1.3em;
+    text-decoration: underline;
+}
+
+.ButtonsShop button:hover{
+    background-color: rgb(235, 174, 61);
+    color: #fff;
+}
+
+.card{
+    margin: 10px -20px;
+    border: none !important;
+}
+
+.card-body{
+    line-height: 20px;
+}
+
+.card-body h5{
+    font-size: 1.4em;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal
+}
+
+.card-body p{
+    font-size: 1.2em;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    color:grey;
+}
+
+.card-body button{
+    border: none;
+    background-color: #fff;
+    color: rgb(241, 185, 30);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.card-body button:hover{
+    color: grey;
+}
